@@ -3,10 +3,10 @@ namespace IntroChangeVariableValues
 {
     internal class Program
     {
-        private string myFavoriteCity;
+        private int myFavoriteCity;
         private int myFavoriteNumber;
         private bool displayNumber;
-        private string characterName;
+        private int characterName;
         private DateTime currentTime;
 
 
@@ -17,13 +17,13 @@ namespace IntroChangeVariableValues
         }
 
         private void ShowIntroMessage(
-            string ???, //1) verzin hier een naam voor deze string variable
-            ??? enterAmountToExit)
+            string julian, //1) verzin hier een naam voor deze string variable
+            int enterAmountToExit)
         {
-            Console.WriteLine(???);//gebruik hier je verzonnen naam van 1) 
+            Console.WriteLine(julian);//gebruik hier je verzonnen naam van 1) 
 
             //2) zet hieronder enterAmountToExit op de ???
-            Console.WriteLine("druk nu "+ ???+ " keer op enter om te stoppen");
+            Console.WriteLine("druk nu "+ enterAmountToExit+ " keer op enter om te stoppen");
        
             for(int i = 0;i < enterAmountToExit; i++)
             {

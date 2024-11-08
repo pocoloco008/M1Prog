@@ -76,7 +76,8 @@ namespace SquareCommand
             //- type: int
             //- naam: ground
             //- met de waarde van 7 keer size
-
+            int ground = size*7
+            
             //2) maak hieronder een variable:
             //- type: float
             //- naam: playerBottom

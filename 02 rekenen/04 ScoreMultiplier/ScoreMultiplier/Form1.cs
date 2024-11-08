@@ -5,7 +5,7 @@ namespace UpAndDown
     {
 
         int score = 0;
-        int multiplier = 1;
+        int multiplier = 2;
         public Form1()
         {
             InitializeComponent();

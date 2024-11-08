@@ -18,6 +18,7 @@ namespace UpAndDown
             if (e.KeyCode == Keys.Space)
             {
                 //1) tel hieronder 1 bij de score op
+
             }
             if (e.KeyCode == Keys.E)
             {
